@@ -1,0 +1,376 @@
+.bg {
+  width: 1280px;
+  height: 2239px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  }
+
+.header {
+    width: 271px;
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .header img{
+    display:inline-block;
+    position:relative;
+    left: 100px;
+    height: 55px;
+    width: 150px;
+  }
+
+  .header .nav_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 395px;
+    width: 540px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #ffffff;
+  }
+
+  .header .nav_box ul
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 44px;
+  }
+  .header .nav_box ul li{
+    float: left;
+    height: 12px;
+    font-family: 微軟正黑體;
+    font-size: 19px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92afca;
+    display: block;
+    padding: 3px 30px;
+  }
+  .header .nav_box a{
+    text-decoration:none;
+    color: #92afca;
+  }
+  .header .btn{
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: -23px;
+    box-shadow: 4px  5px rgba(255, 255, 255, 0);
+  }
+  .header .btn a{
+    text-decoration:none;
+    color: #ffffff;
+  }
+
+.btn{
+  width: 150px;
+    height: 50px;
+    border: solid 1px #618fd4;
+    background-color:  #618fd4;
+    box-shadow: 4px  5px rgba(1, 20, 44, 0.363);
+    font-family: 微軟正黑體;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 50px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e7effd;
+    justify-content:center;
+    align-items:center;
+}
+
+.img-main
+{
+  display:inline-block;
+    position:relative;
+    margin-top:20px;
+    width: 940px;
+    height: 520px;
+}
+.img-main img
+{
+  width: 1280px;
+    height: 700px;
+}
+
+.b-food
+{
+  margin-left: -120px;
+  width: 1260px;
+  height: 300px;
+  margin-top: 33px;
+  margin-bottom: 12px;
+  padding: 70px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(229, 244, 252);
+}
+.b-food img
+{
+  margin-left: 20px;
+  height: 350px;
+  width: 640px;
+}
+.b-food .btn{
+  margin-left: 1080px;
+  margin-top: 100px;
+  box-shadow: 4px  5px rgb(176, 209, 235);
+}
+
+h3{
+  height: 12px;
+  font-family: 微軟正黑體;
+  font-size: 40px;
+  font-weight: 1200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #103f6e;
+  display: block;
+  padding: 3px 30px;
+}
+.b-food h3{
+  margin-top: -280px;
+  margin-left: 680px;
+}
+.b-food p{
+  width: 500px;
+  margin-left: 680px;
+    height: 12px;
+    font-family: 微軟正黑體;
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #0a1c2e;
+    display: block;
+    padding: 3px 30px;
+
+}
+
+
+
+.b-room
+{
+  vertical-align: middle;
+  width: 1260px;
+  height: 320px;
+  margin-top: 33px;
+  margin-bottom: 12px;
+  padding: 70px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(215, 233, 250);
+}
+.b-room img
+{
+  margin-left: 600px;
+  margin-top: -15px;
+  height: 350px;
+  width: 640px;
+}
+.b-room h3{
+  margin-top: -280px;
+}
+.b-room p{
+  width: 500px;
+    height: 12px;
+    font-family: 微軟正黑體;
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #0a1c2e;
+    display: block;
+    padding: 3px 30px;
+
+}
+.b-room .btn{
+  width: 165px;
+  margin-left: 380px;
+  margin-top: 100px;
+}
+
+
+.b-trans
+{
+  width: 1260px;
+  height: 450px;
+  margin-bottom: 12px;
+  display:flex;
+  flex-direction: column;
+}
+.b-trans img
+{
+  height: 450px;
+  width: 1260px;
+}
+
+.b-trans .btn{
+  width: 165px;
+  margin-top: -100px;
+  margin-left: 1060px;
+
+ 
+}
+
+  .vertical-line {
+		width: 1px;
+    height: 25px;
+    background-color: #778a50;
+  }
+  
+
+.box_footer {
+  padding: 0px;
+  margin-top: 20px;
+    width: 1260px;
+    height: 235px;
+    background-color: #505e8a;
+    text-align: center;
+    line-height: 60px;
+    align-content:center;
+    justify-content:flex-start;
+    text-align: left;
+  }
+
+.box_footer p{
+    padding: 0px;
+    width: 500px;
+    height: 11px;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    font-weight: 1000px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.box_footer .btn-contact{
+  height: 235px;
+  float: left;
+  width: 600px;
+
+}
+.box_footer .btn-contact p {
+  position: relative;
+  top: -250px;
+  margin-top: 58px;
+  margin-left: 170px;
+  
+}
+.box_footer .btn-contact img{
+  filter:invert(100%);
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.box_footer .btn-social{
+  height: 235px;
+  float: left;
+  width: 200px;
+  margin-left: 50px;
+}
+.box_footer .btn-social p {
+  position: relative;
+  top: -250px;
+  margin-top: 58px;
+  margin-left: 170px;
+  
+}
+.box_footer .btn-social img{
+  filter:invert(100%);
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 30px;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.box_footer .btn-social .btn{
+
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 10px;
+  box-shadow: 4px  5px rgba(255, 255, 255, 0);
+}
+
+.box_footer .logo
+{
+  margin-left: 1000px;
+}
+
+.box_footer .logo img
+{
+  width: 180px;
+  height: 175px;
+  margin-top: 40px;
+}
+
+.box_footer .btn-social .btn a{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.b-food a {
+  text-decoration:none;
+  color: #e7effd;
+}
+
+.b-room a {
+  text-decoration:none;
+  color: #e7effd;
+}
+
+.b-trans a {
+  text-decoration:none;
+  color: #e7effd;
+}
+
+.dark
+{
+  border: solid 1px #42669c;
+  background-color:  #42669c;
+  color: #0a1c2e;
+}
+
+.bright{
+  border: solid 1px #61b0d4;
+  background-color:  #61b0d4;
+}
+
+.bright_head
+{
+  border: solid 1px #9bbae9; 
+  background-color:  #9bbae9;
+}
+.dark_head
+{
+  border: solid 1px #a0c4fa;
+  background-color: #a0c4fa;
+}
