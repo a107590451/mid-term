@@ -103,28 +103,38 @@
     height: 700px;
 }
 
-.b-food
-{
-  margin-left: -120px;
-  width: 1260px;
-  height: 300px;
-  margin-top: 33px;
-  margin-bottom: 12px;
-  padding: 70px;
-  display:flex;
-  flex-direction: column;
-  background-color: rgb(229, 244, 252);
+h1{
+  margin-top: -40px;
+  margin-left: 50px;
+  height: 12px;
+  font-family: 微軟正黑體;
+  text-shadow: 3px 3px  #0a1c2e41;
+  font-size: 40px;
+  font-weight: 1200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #163555;
+  padding: 3px 30px;
 }
-.b-food img
-{
-  margin-left: 20px;
-  height: 350px;
-  width: 640px;
+
+.line{
+  width: 1150px;
+    height: 3px;
+    background-color:  #163555;
+    margin-top: 12px;
+    margin-left: 50px;
+
 }
-.b-food .btn{
-  margin-left: 1080px;
-  margin-top: 100px;
-  box-shadow: 4px  5px rgb(176, 209, 235);
+.subline{
+  width: 1150px;
+    height: 1.5px;
+    background-color:  #163555;
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -140,13 +150,38 @@ h3{
   display: block;
   padding: 3px 30px;
 }
+
+.b-food
+{
+  margin-left: -120px;
+  width: 1260px;
+  height: 320px;
+  margin-top: 33px;
+  margin-bottom: 12px;
+  padding: 50px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(229, 244, 252);
+}
+.b-food img
+{
+  margin-left: 50px;
+  height: 380px;
+  width: 560px;
+}
+.b-food .btn{
+  margin-left: 1080px;
+  margin-top: 100px;
+  box-shadow: 4px  5px rgb(176, 209, 235);
+}
+
 .b-food h3{
   margin-top: -280px;
   margin-left: 680px;
 }
 .b-food p{
   width: 500px;
-  margin-left: 680px;
+  margin-left: 670px;
     height: 12px;
     font-family: 微軟正黑體;
     font-size: 17px;
@@ -166,26 +201,32 @@ h3{
 .b-room
 {
   vertical-align: middle;
+  margin-left: 39px;
   width: 1260px;
   height: 320px;
   margin-top: 33px;
   margin-bottom: 12px;
-  padding: 70px;
+  padding: 50px;
   display:flex;
   flex-direction: column;
   background-color: rgb(215, 233, 250);
 }
+.b-room h1{
+  margin-left: -80px;
+}
 .b-room img
 {
-  margin-left: 600px;
-  margin-top: -15px;
-  height: 350px;
-  width: 640px;
+  margin-left: 660px;
+  
+  height: 300px;
+  width: 540px;
 }
 .b-room h3{
   margin-top: -280px;
+  margin-left: 20px;
 }
 .b-room p{
+  margin-left: 20px;
   width: 500px;
     height: 12px;
     font-family: 微軟正黑體;
@@ -202,7 +243,7 @@ h3{
 }
 .b-room .btn{
   width: 165px;
-  margin-left: 380px;
+  margin-left: 450px;
   margin-top: 100px;
 }
 
@@ -210,21 +251,25 @@ h3{
 .b-trans
 {
   width: 1260px;
-  height: 450px;
+  height: 490px;
   margin-bottom: 12px;
   display:flex;
   flex-direction: column;
 }
+.b-trans h1{
+  margin-top: 6px;
+}
 .b-trans img
 {
-  height: 450px;
-  width: 1260px;
+  margin-left:30px;
+  height: 420px;
+  width: 1200px;
 }
 
 .b-trans .btn{
   width: 165px;
-  margin-top: -100px;
-  margin-left: 1060px;
+  margin-top: -80px;
+  margin-left: 1030px;
 
  
 }
@@ -238,7 +283,7 @@ h3{
 
 .box_footer {
   padding: 0px;
-  margin-top: 20px;
+  margin-top: 10px;
     width: 1260px;
     height: 235px;
     background-color: #505e8a;
