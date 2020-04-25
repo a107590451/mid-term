@@ -105,7 +105,6 @@
 
 h1{
   margin-top: -40px;
-  margin-left: 50px;
   height: 12px;
   font-family: 微軟正黑體;
   text-shadow: 3px 3px  #0a1c2e41;
@@ -125,7 +124,7 @@ h1{
     height: 3px;
     background-color:  #163555;
     margin-top: 12px;
-    margin-left: 50px;
+    margin-left: 5px;
 
 }
 .subline{
@@ -133,7 +132,7 @@ h1{
     height: 1.5px;
     background-color:  #163555;
     margin-top: 2px;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-bottom: 10px;
 }
 
@@ -153,8 +152,8 @@ h3{
 
 .b-food
 {
-  margin-left: -120px;
-  width: 1260px;
+  
+  width: 1180px;
   height: 320px;
   margin-top: 33px;
   margin-bottom: 12px;
@@ -165,23 +164,23 @@ h3{
 }
 .b-food img
 {
-  margin-left: 50px;
+  margin-left: 5px;
   height: 380px;
   width: 560px;
 }
 .b-food .btn{
-  margin-left: 1080px;
+  margin-left: 1000px;
   margin-top: 100px;
   box-shadow: 4px  5px rgb(176, 209, 235);
 }
 
 .b-food h3{
   margin-top: -280px;
-  margin-left: 680px;
+  margin-left: 600px;
 }
 .b-food p{
   width: 500px;
-  margin-left: 670px;
+  margin-left: 600px;
     height: 12px;
     font-family: 微軟正黑體;
     font-size: 17px;
@@ -201,8 +200,8 @@ h3{
 .b-room
 {
   vertical-align: middle;
-  margin-left: 39px;
-  width: 1260px;
+
+  width: 1180px;
   height: 320px;
   margin-top: 33px;
   margin-bottom: 12px;
@@ -212,21 +211,21 @@ h3{
   background-color: rgb(215, 233, 250);
 }
 .b-room h1{
-  margin-left: -80px;
+  margin-left: 0px;
 }
 .b-room img
 {
-  margin-left: 660px;
+  margin-left: 615px;
   
   height: 300px;
   width: 540px;
 }
 .b-room h3{
   margin-top: -280px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .b-room p{
-  margin-left: 20px;
+  margin-left: 0px;
   width: 500px;
     height: 12px;
     font-family: 微軟正黑體;
@@ -243,13 +242,14 @@ h3{
 }
 .b-room .btn{
   width: 165px;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 100px;
 }
 
 
 .b-trans
 {
+  padding: 50px;
   width: 1260px;
   height: 490px;
   margin-bottom: 12px;
@@ -257,11 +257,12 @@ h3{
   flex-direction: column;
 }
 .b-trans h1{
-  margin-top: 6px;
+  margin-left: -80px;
+  margin-top: 0px;
 }
 .b-trans img
 {
-  margin-left:30px;
+  margin-left: -20px;
   height: 420px;
   width: 1200px;
 }
@@ -269,7 +270,7 @@ h3{
 .b-trans .btn{
   width: 165px;
   margin-top: -80px;
-  margin-left: 1030px;
+  margin-left: 980px;
 
  
 }
